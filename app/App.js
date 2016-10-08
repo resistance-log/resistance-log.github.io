@@ -94,7 +94,7 @@ var Table = React.createClass({
             ctx.lineTo(seat.coords.x * this.props.width, seat.coords.y * this.props.height);
         }
         ctx.stroke();
-        this.clearSelections();
+        //this.clearSelections();
     },
     createSeats(playersCount){
         var tableWidth = 0.3;
